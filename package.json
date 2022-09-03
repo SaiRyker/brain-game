@@ -26,5 +26,8 @@
     "eslint-plugin-import": "^2.26.0",
     "jest": "^29.0.1",
     "prettier": "^2.7.1"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   }
 }
