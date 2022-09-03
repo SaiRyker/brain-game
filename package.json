@@ -19,5 +19,9 @@
   "homepage": "https://github.com/SaiRyker/js#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1",
+    "prettier": "^2.7.1"
   }
 }
