@@ -2,4 +2,5 @@
 <hr></hr>
 
 <h2>Brain Even</h2>
-https://asciinema.org/a/JnodU8Yc8MFtvgbSftvZlfrAv
+
+<script id="asciicast-JnodU8Yc8MFtvgbSftvZlfrAv" src="https://asciinema.org/a/JnodU8Yc8MFtvgbSftvZlfrAv.js" async></script>
