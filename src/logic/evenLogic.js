@@ -1,11 +1,8 @@
 import readlineSync from 'readline-sync';
+import getRandomInt from '../getRandomIntFunc';
 // eslint-disable-next-line import/extensions
 
 const isEven = (number) => number % 2 === 0;
-
-function getRandomInt(min, max) {
-	return Math.floor(Math.random() * (max - min)) + min;
-}
 
 const firstQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
 

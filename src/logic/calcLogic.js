@@ -1,4 +1,4 @@
-import { getRandomInt } from "./evenLogic.js";
+import getRandomInt from '../getRandomIntFunc.js';
 import readlineSync from 'readline-sync';
 import generalProcess from "../index.js";
 
