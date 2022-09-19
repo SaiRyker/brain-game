@@ -1,5 +1,4 @@
 import getRandomInt from '../getRandomIntFunc.js';
-import readlineSync from 'readline-sync';
 import generalProcess from "../index.js";
 
 const operators = ['*', '-', '+'];
