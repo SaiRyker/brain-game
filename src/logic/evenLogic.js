@@ -1,41 +1,24 @@
-import readlineSync from 'readline-sync';
-import getRandomInt from '../getRandomIntFunc';
+import getRandomInt from "../getRandomIntFunc.js";
+import generalProcess from "../index.js";
 // eslint-disable-next-line import/extensions
 
 const isEven = (number) => number % 2 === 0;
 
-const firstQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
+const instruction = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const main = () => {
-	let count = 0;
-	console.log(firstQuestion);
-	while (count !== 3) {
-		const number = getRandomInt(0, 100);
-		console.log(`Question: ${number}`);
-		const answer = readlineSync.question('Your answer: ');
-		const even = isEven(number);
-		if (even === true) {
-			if (answer === 'yes') {
-				console.log('Correct!');
-				count += 1;
-			} else if (answer === 'no') {
-				console.log('\'no\' is wrong answer ;(. Correct answer was \'yes\'. \nLet\'s try again, ');
-				break;
-			}
-		} else if (even === false) {
-			if (answer === 'no') {
-				console.log('Correct!');
-				count += 1;
-			} else if (answer === 'yes') {
-				console.log('\'yes\' is wrong answer ;(. Correct answer was \'no\'. \nLet\'s try again, ');
-				break;
-			}
-		}
+const mainLogic = () => {
+	const number = getRandomInt(0, 100);
+	const question = `Question: ${number}`;
+	const even = isEven(number);
+	let correct = '';
+	if (even === true) {
+		correct = 'yes';
+	} else {
+		correct = 'no'
 	}
-	if (count === 3) {
-		console.log('Congratulations, !');
-	}
+	return [question, correct];
 };
 
+const main = () => generalProcess(instruction, mainLogic);
+
 export default main;
-export { getRandomInt };
