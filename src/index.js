@@ -17,7 +17,7 @@ const generalProcess = (instruction, logic) => {
 			console.log("Correct!");
 			countRes += 1;
 		} else {
-			console.log(`'${answer} is wrong answer ;(. Correct answer was '${correctRes}.' \nLet's try again, ${nickname}!`);
+			console.log(`'${answer} is wrong answer ;(. Correct answer was '${correctRes}'. \nLet's try again, ${nickname}!`);
 			break;
 		}
 	}
