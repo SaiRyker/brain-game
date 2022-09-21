@@ -1,6 +1,6 @@
 <h1>Brain Games</h1>
 <hr></hr>
-<a href="https://codeclimate.com/repos/526a91a8f3ea007d8d03337b/maintainability"><img src="https://api.codeclimate.com/v1/badges/4cbc6935e6571ef4287f/maintainability" /></a>
+<a href="https://codeclimate.com/github/SaiRyker/brain-game/maintainability"><img src="https://api.codeclimate.com/v1/badges/44279df5eec5618acf98/maintainability" /></a>
 
 <h2>Brain Even</h2>
 
