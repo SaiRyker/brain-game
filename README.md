@@ -1,6 +1,8 @@
 <h1>Brain Games</h1>
 <hr></hr>
 <a href="https://codeclimate.com/github/SaiRyker/brain-game/maintainability"><img src="https://api.codeclimate.com/v1/badges/44279df5eec5618acf98/maintainability" /></a>
+<hr></hr>
+
 # Description:
 
 The following repository contains several console games that were build to check my first coding skills, that i've learned with first module on **Hexlet Frontend** with **JavaScript**. You can win by successfully answering 3 questions in a row in the selected game.
